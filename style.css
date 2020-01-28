@@ -1,0 +1,60 @@
+html,
+body {
+  margin: 12px;
+  background-color: #60605F;
+}
+
+
+nav {
+  display: flex;
+  margin: 12px;
+  padding: 20px;
+  justify-content:space-around;
+  font-size: 20px;
+  border: 1px solid black;
+  box-sizing: border-box;
+}
+
+
+ h1 {
+  display: flex;
+  border: 2px solid black;
+  border-width: medium;
+  border-style: ridge;
+  width: 550px;
+  padding-top: 12px;
+  padding-bottom: 12px;
+  color: white;
+  justify-content: center;
+
+}
+
+p {
+  margin: 12px;
+  padding: 30px;
+}
+
+
+a {
+  text-decoration: none;
+  padding: 5px;
+  color: white;
+  transition: 0.3s;
+}
+
+nav:hover {
+  transition: 0.3s;
+}
+
+a:hover {
+  background-color: black;
+
+}
+
+menu {
+  padding-left: 20px;
+  padding-right: 20px;
+  float: left;
+  float: right;
+  box-sizing: content-box;
+}
