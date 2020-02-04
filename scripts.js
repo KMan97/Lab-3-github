@@ -3,7 +3,8 @@ const click = document.getElementById('hello');
 click.addEventListener('click', greeting);
 
 function greeting() {
-  alert("You clicked on this button !!")
+  console.log("hi");
+
 }
 
 
